@@ -14,14 +14,14 @@
 // };
 
 export const config = {
-  'username': 'oanh',
+  'username': 'oanhnguyen',
   'password': 'Oanh123456',
   'database': 'postgres',
-  'host': 'database-1-076177625008.cpyhyamftj2k.us-east-1.rds.amazonaws.com',
+  'host': 'postgres.cpyhyamftj2k.us-east-1.rds.amazonaws.com',
   'dialect': 'postgres',
-  'aws_region': 'us-east-1a',
+  'aws_region': 'us-east-1',
   'aws_profile': 'default',
-  'aws_media_bucket': '076177625008-project3',
+  'aws_media_bucket': '076177625008-bucket-1',
   'url': 'http://localhost:8100',
   'jwt': {
     'secret': 'hello',

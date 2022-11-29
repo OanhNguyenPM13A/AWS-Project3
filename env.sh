@@ -1,14 +1,14 @@
 # This file is used for convenience of local development.
 # # DO NOT STORE YOUR CREDENTIALS INTO GIT
-POSTGRES_USERNAME='oanh'
-POSTGRES_PASSWORD='Oanh123456'
-POSTGRES_HOST='database-1-076177625008.cpyhyamftj2k.us-east-1.rds.amazonaws.com'
-POSTGRES_DB='postgres'
-AWS_BUCKET='076177625008-project3'
-AWS_REGION='us-east-1a'
-AWS_PROFILE='default'
-JWT_SECRET='testing'
-URL='http://localhost:8100'
+export POSTGRES_USERNAME=oanhnguyen
+export POSTGRES_PASSWORD=Oanh123456
+export POSTGRES_HOST=postgres.cpyhyamftj2k.us-east-1.rds.amazonaws.com
+export POSTGRES_DB=postgres
+export AWS_BUCKET=076177625008-bucket-1
+export AWS_REGION=us-east-1
+export AWS_PROFILE=default
+export JWT_SECRET=hello
+export URL=http://localhost:8100
 # setx POSTGRES_USERNAME oanh
 # setx POSTGRES_PASSWORD Oanh123456
 # setx POSTGRES_HOST database-1-076177625008.cpyhyamftj2k.us-east-1.rds.amazonaws.com
