@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy-node
-        image: oanhnguyen99/reverseproxy:v1
+        image: oanhnguyen99/reverseproxy:v2
         imagePullPolicy: Always
         resources:
               requests:
